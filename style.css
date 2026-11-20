@@ -15,6 +15,7 @@ body {
 :root {
   --bg: #faf8ef;
   --board-bg: #bbada0;
+  --text-light: #f9f6f2;
   --cell-bg: rgba(238, 228, 218, 0.35);
   --gap: 12px;
   --cell-size: 100px;
