@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Класична гра 2048 у браузері">
+  <meta name="theme-color" content="#faf8ef">
+  <title>2048</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <header class="game__header">
+      <h1>2048</h1>
+      <div class="scores">
+        <div class="score-box">Рахунок <span id="score" aria-live="polite">0</span></div>
+        <div class="score-box">Рекорд <span id="best">0</span></div>
+      </div>
+    </header>
+
+    <button id="new-game" type="button">Нова гра</button>
+
+    <div class="board-wrap">
+      <div id="board" class="board" aria-label="Ігрове поле"></div>
+      <div id="overlay" class="overlay" hidden>
+        <p id="overlay-text"></p>
+        <button id="overlay-btn" type="button">Спробувати ще</button>
+      </div>
+    </div>
+
+    <p class="hint">Стрілки або свайп: рухайте плитки. Однакові числа зливаються.</p>
+  </main>
+
+  <noscript>Для гри потрібен увімкнений JavaScript.</noscript>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>
