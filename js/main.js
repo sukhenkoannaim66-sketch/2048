@@ -1,5 +1,5 @@
 import { Board } from "./game.js";
-import { loadBest, saveBest, loadGame, saveGame, clearGame } from "./storage/storage.js";
+import { loadBest, saveBest, loadGame, saveGame, clearGame } from "./storage.js";
 import { render, showOverlay, hideOverlay } from "./ui/render.js";
 import { onMove } from "./ui/input.js";
 
@@ -46,9 +46,9 @@ function handleMove(direction) {
   render(board.grid, board.score, best, { newTile, merged: result.merged });
 
   if (board.hasWon()) {
-    endGame("Перемога!");
+    endGame("Перемога (буде 15 травня)");
   } else if (!board.canMove()) {
-    endGame("Гру закінчено");
+    endGame("Гру закінчено (сюююююшеп)");
   }
 }
 
@@ -63,4 +63,3 @@ document.querySelector("#new-game").addEventListener("click", startNewGame);
 document.querySelector("#overlay-btn").addEventListener("click", startNewGame);
 
 loadOrStart();
-
