@@ -12,13 +12,6 @@ coverage/
 logs/
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Секрети
-.env
-.env.*
-!.env.example
 
 # Кеші та тимчасові файли
 .cache/
