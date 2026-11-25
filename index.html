@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Класична гра 2048 у браузері">
+  <meta name="description" content="Класична гра 2048 'PIPIKIWI' у браузері">
   <meta name="theme-color" content="#faf8ef">
-  <title>2048</title>
+  <title>PIPIKIWI </title>
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/tiles/2.webp">
+  <link rel="preload" as="image" href="assets/tiles/4.webp">
+  <link rel="preload" as="image" href="assets/tiles/8.webp">
+  <link rel="preload" as="image" href="assets/tiles/16.webp">
+  <link rel="preload" as="image" href="assets/tiles/32.webp">
+  <link rel="preload" as="image" href="assets/tiles/64.webp">
+  <link rel="preload" as="image" href="assets/tiles/128.webp">
+  <link rel="preload" as="image" href="assets/tiles/256.webp">
+  <link rel="preload" as="image" href="assets/tiles/512.webp">
+  <link rel="preload" as="image" href="assets/tiles/1024.webp">
+  <link rel="preload" as="image" href="assets/tiles/2048.webp">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="game">
     <header class="game__header">
-      <h1>2048</h1>
+      <h1>PIPIKIWI </h1>
       <div class="scores">
         <div class="score-box">Рахунок <span id="score" aria-live="polite">0</span></div>
         <div class="score-box">Рекорд <span id="best">0</span></div>
@@ -33,6 +44,6 @@
   </main>
 
   <noscript>Для гри потрібен увімкнений JavaScript.</noscript>
-  <script type="module" src="js/main.js"></script>
+  <script type="module" src="/js/main.js"></script>
 </body>
 </html>
