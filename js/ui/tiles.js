@@ -9,5 +9,5 @@ export const TILES = {
   256:  { src: "assets/tiles/Знімок екрана 2026-11-25 161915.png",  name: "Ківі бурий" },
   512:  { src: "assets/tiles/512.webp",  name: "Ківі сірий" },
   1024: { src: "assets/tiles/Знімок екрана 2026-11-25 162026.png", name: "Ківі лейкіміст" },
-  2048: { src: "assets/tiles/2048.webp", name: "Піпі-Ківі!!!" },
+  2048: { src: "assets/tiles/Знімок екрана 2026-11-25 162233.png", name: "Піпі-Ківі!!!" },
 };
