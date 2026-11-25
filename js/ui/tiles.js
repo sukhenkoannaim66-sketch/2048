@@ -5,7 +5,7 @@ export const TILES = {
   16:   { src: "assets/tiles/Знімок екрана 2026-11-25 155954.png",   name: "Червоний ківі" },
   32:   { src: "assets/tiles/Знімок екрана 2026-11-25 160353.png",   name: "Просто ківі" },
   64:   { src: "assets/tiles/Знімок екрана 2026-11-25 161635.png",   name: "Ківі малий" },
-  128:  { src: "assets/tiles/128.webp",  name: "Ківі окаритський" },
+  128:  { src: "assets/tiles/Знімок екрана 2026-11-25 162135.png",  name: "Ківі окаритський" },
   256:  { src: "assets/tiles/Знімок екрана 2026-11-25 161915.png",  name: "Ківі бурий" },
   512:  { src: "assets/tiles/512.webp",  name: "Ківі сірий" },
   1024: { src: "assets/tiles/Знімок екрана 2026-11-25 162026.png", name: "Ківі лейкіміст" },
