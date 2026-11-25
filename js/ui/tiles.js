@@ -1,5 +1,5 @@
 export const TILES = {
-  2:    { src: "assets/tiles/2.webp",    name: "Зелений ківі-зародиш" },
+  2:    { src: "assets/tiles/Знімок екрана 2026-11-25 154456.png",    name: "Зелений ківі-зародиш" },
   4:    { src: "assets/tiles/4.webp",    name: "Червоний ківі-зародиш" },
   8:    { src: "assets/tiles/8.webp",    name: "Зелений ківі" },
   16:   { src: "assets/tiles/16.webp",   name: "Червоний ківі" },
