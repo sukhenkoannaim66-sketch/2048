@@ -63,3 +63,6 @@ document.querySelector("#new-game").addEventListener("click", startNewGame);
 document.querySelector("#overlay-btn").addEventListener("click", startNewGame);
 
 loadOrStart();
+
+import { TILES } from "./ui/tiles.js";
+Object.values(TILES).forEach(({ src }) => { new Image().src = src; });
