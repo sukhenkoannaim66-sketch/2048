@@ -21,7 +21,6 @@ export function createCell() {
 export function createTile(value, { isNew = false, isMerged = false } = {}) {
   const tile = document.createElement("div");
   tile.className = "tile";
-  tile.textContent = value;
   tile.dataset.value = value;
   tile.dataset.digits = String(value).length;
 
