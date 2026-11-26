@@ -1,7 +1,9 @@
 import { Board } from "./game.js";
 import { loadBest, saveBest, loadGame, saveGame, clearGame } from "./storage.js";
-import { render, showOverlay, hideOverlay } from "./ui/render.js";
-import { onMove } from "./ui/input.js";
+import { render, renderBoard, renderScore, showOverlay, hideOverlay } from "./ui/render.js";
+import { bindControls } from "./ui/input.js";
+import { onMove } from "./input.js";
+import { TILES } from "./ui/tiles.js";
 
 let board;
 let best = loadBest();
@@ -14,7 +16,8 @@ function startNewGame() {
   isOver = false;
   saveGame(board.toJSON());
   hideOverlay();
-  render(board.grid, board.score, best);
+  renderBoard(board.grid);
+  renderScore(board.score, best);
 }
 
 function loadOrStart() {
@@ -59,10 +62,8 @@ function endGame(text) {
 }
 
 onMove(handleMove);
-document.querySelector("#new-game").addEventListener("click", startNewGame);
-document.querySelector("#overlay-btn").addEventListener("click", startNewGame);
+bindControls({ onNewGame: startNewGame });
 
 loadOrStart();
 
-import { TILES } from "./ui/tiles.js";
 Object.values(TILES).forEach(({ src }) => { new Image().src = src; });
