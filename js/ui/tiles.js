@@ -1,15 +1,15 @@
 export const TILES = {
-  2:    { src: new URL("../../assets/tiles/2.webp", import.meta.url).href },
-  4:    { src: new URL("../../assets/tiles/4.webp", import.meta.url).href },
-  8:    { src: new URL("../../assets/tiles/8.webp", import.meta.url).href },
-  16:   { src: new URL("../../assets/tiles/16.webp", import.meta.url).href },
-  32:   { src: new URL("../../assets/tiles/32.webp", import.meta.url).href },
-  64:   { src: new URL("../../assets/tiles/64.webp", import.meta.url).href },
-  128:  { src: new URL("../../assets/tiles/128.webp", import.meta.url).href },
-  256:  { src: new URL("../../assets/tiles/256.webp", import.meta.url).href },
-  512:  { src: new URL("../../assets/tiles/512.webp", import.meta.url).href },
-  1024: { src: new URL("../../assets/tiles/1024.webp", import.meta.url).href },
-  2048: { src: new URL("../../assets/tiles/2048.webp", import.meta.url).href },
+  2:    { src: "assets/tiles/Знімок екрана 2026-11-25 154456.png",    name: "Зелений ківі-зародиш" },
+  4:    { src: "assets/tiles/Знімок екрана 2026-11-25 154938.png",    name: "Червоний ківі-зародиш" },
+  8:    { src: "assets/tiles/Знімок екрана 2026-11-25 155403.png",    name: "Зелений ківі" },
+  16:   { src: "assets/tiles/Знімок екрана 2026-11-25 155954.png",    name: "Червоний ківі" },
+  32:   { src: "assets/tiles/Знімок екрана 2026-11-25 160353.png",    name: "Просто ківі" },
+  64:   { src: "assets/tiles/Знімок екрана 2026-11-25 161635.png",    name: "Ківі малий" },
+  128:  { src: "assets/tiles/Знімок екрана 2026-11-25 162135.png",    name: "Ківі окаритський" },
+  256:  { src: "assets/tiles/Знімок екрана 2026-11-25 161915.png",    name: "Ківі бурий" },
+  512:  { src: "assets/tiles/Знімок екрана 2026-11-25 161946.png",    name: "Ківі сірий" },
+  1024: { src: "assets/tiles/Знімок екрана 2026-11-25 162026.png",    name: "Ківі лейкіміст" },
+  2048: { src: "assets/tiles/Знімок екрана 2026-11-25 162233.png",    name: "Піпі-Ківі!!!" },
 };
 
 export function createCell() {
