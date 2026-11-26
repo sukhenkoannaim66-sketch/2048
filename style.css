@@ -41,7 +41,9 @@ body {
 }
 
 .game__header h1 {
-  margin: 0;;
+  margin: 0;
+  font-size: 5px;
+  font-weight: 100;
 }
 
 .game__header h1, .hint {
